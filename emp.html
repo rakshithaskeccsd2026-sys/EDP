@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+
+    <form action="process_the_page.php" method="post">
+
+        <p>
+            <label for="username">Username:</label>
+            <input id="username" type="text" name="username">
+        </p>
+
+        <p>
+            <label for="pass_word">Password:</label>
+            <input id="pass_word" type="password" name="pass_word">
+        </p>
+
+        <p>
+            <span>I study:</span><br>
+
+            <input id="ddw" type="checkbox" name="study[]" value="ddw" checked>
+            <label for="ddw">DDW</label>
+
+            <input id="java" type="checkbox" name="study[]" value="java">
+            <label for="java">Java</label>
+        </p>
+
+        <p>
+            <span>Name the national animal of Nepal.</span><br>
+
+            <input id="cow" type="radio" name="animal" value="cow" checked>
+            <label for="cow">Cow</label>
+
+            <input id="lion" type="radio" name="animal" value="lion">
+            <label for="lion">Lion</label>
+        </p>
+
+        <p>
+            <label for="comments">Please enter your comment:</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="20"></textarea>
+        </p>
+
+        <p>
+            <label for="language">Select your language:</label>
+            <select id="language" name="language">
+                <option value="">Select your  Language</option>
+                <option value="arabic">Arabic</option>
+                <option value="english">English</option>
+                <option value="nepali">Nepali</option>
+            </select>
+        </p>
+
+        <p>
+            <input type="submit" value="login">
+<fieldset>
+<legend>contact details</legend>
+<p>
+<lable for="email">Email:</lable>
+<input id="email"type="text" name="email"/>
+</p>
+<p>
+<lable for="mobile">Mobile phoine number:</lable>
+<input id="mobile" type="text: name="mobile"/>
+</p>
+</fieldset>
+          
+        </p>
+
+    </form>
+
+</body>
+</html>
